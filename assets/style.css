@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Lobster" cursive;
+  font-family: "Rufina", serief;
+  src: url(healphy/assets/font/Rufina/Rufina-Regular.ttf);
+}
+
+.main {
+  height: 100%;
+  width: 100vw;
+  background-color: 000000;
+  margin: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  justify-items: end;
+}
+h1.header {
+  font-family: "Rufina-Regular" sans-serif;
+  font-size: 108px;
+  font-weight: 300;
+  justify-self: center;
+  color: blue;
+  background-color: aqua;
+}
+
+img.header {
+  width: 300px;
+  height: 200px;
+}
